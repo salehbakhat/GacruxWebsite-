@@ -1,0 +1,109 @@
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/contact%20us.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <title>Gacrux &raquo; Contact us </title>
+        <script type="text/javascript">
+        function val(){
+        if(contactus.phone.value=="")
+        {
+        	alert("Please enter the phone number");
+        	contactus.phone.focus(); 
+        	return false;
+        }
+        if(isNaN(contactus.phone.value))
+        {
+        	alert("Invalid phone number");
+        	contactus.phone.focus(); 
+        	return false;
+        }
+        if((contactus.phone.value).length < 10)
+        {
+        	alert("Phone number should be minimum 10 digits");
+        	contactus.phone.focus(); 
+        	return false;
+        }
+        
+        else if((contactus.phone.value).length > 14)
+        {
+        	alert("Phone number should be maxmimum 14 digits");
+        	contactus.phone.focus(); 
+        	return false;
+        }
+        
+        return true;
+        }
+        </script>
+    </head>
+    <body>
+        
+            <!-- Start Header -->
+        
+        <div class="header">
+            <div class="navbar">
+                    <div class="container">
+                        <h2><span>Gac</span>rux</h2>
+                        <ul>
+                            <li class="active"><a href="home.html">home</a></li>
+                            <li><a href="aboutus.html">about us</a></li>
+                            <li><a href="service.html">service</a></li>
+                            <li><a href="ourwork.html">our-work</a></li>
+                            <li><a href="contact%20us.html">Contact us </a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+            <!-- End Header -->
+
+        <!-- Start Contact us -->
+        <div class="contact">
+            <div class="container">
+                <div class="info">
+                    <h2>Contact Us</h2>
+                    <p>Whether you’re looking for answers, would like to solve a problem, or just want to let us know how we did, you’ll find many ways to contact us right here. We’ll help you resolve your issues quickly and easily. </p>
+                    <p>
+                        <strong>Operating Hours:</strong><br>
+                        Monday-Saturday: 8:00am – 12:00am (EDT) <br>
+                        Sunday: 9:00am – 12:00am (EDT)</p>
+                    <p>
+                    
+                        <strong>E-mail:</strong> Gacrux@gacrux.com.sa <br>
+                        <strong>Phone:</strong> +966532440448
+                    </p>
+                </div>
+                <form class="form" action="send.php" method="post" name="contactus"> 
+                    <label>Name *</label>
+                    <input type="text" name="name" placeholder="Enter Your Name" required/>
+                    <label>Phone *</label>
+                    <input type="text" name="phone" placeholder="Enter Your Phoen Number" maxlength="14" required/>
+                    <label>E-mail *</label>
+                    <input type="email" name="email" placeholder="Enter Your E-mail" required/>
+                    <label>Message *</label>
+                    <textarea name="message" placeholder="Write Any Message" required ></textarea>
+                    <input type="submit" value="Send" onclick="return val();" />
+                    <input type="reset" value="Reset" />
+                </form>
+            </div>
+        </div>
+        
+        <!-- End Contact us -->
+         <!-- Start Footer --> 
+        
+        <div class="foot">
+            <div class="container">
+                <span>Copyright &copy; 2018 GACRUX CO.</span>
+                <ul>
+                    <li><img src="./image/instagram.png" alt="instagram"> </li>
+                    <li><img src="./image/twitter.png" alt="twitter"></li>
+                    <li><img src="./image/youtube.png" alt="youtube"></li>
+                    <li><img src="./image/facebook.png" alt="facebook"></li>
+                    <li><img src="./image/linkedin.png" alt="linkedin"></li>
+                </ul>
+            </div>
+        </div>
+            <!-- End Footer -->
+    </body>
+</html>

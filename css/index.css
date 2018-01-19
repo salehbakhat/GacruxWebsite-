@@ -1,0 +1,78 @@
+/* Start Rule */
+
+.container 
+{
+    width: 1170px;
+    margin: auto;
+}
+
+/* End Rule */
+
+/* Start Header */
+
+.header .navbar 
+{
+    background-color: #262F31;
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.header .navbar h2 
+{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span
+{
+    color: #25b3f9;
+}
+
+.header .slider 
+{
+    background-image:url(https://i.imgur.com/diihENq.gif); /* CSS3 */
+    background-size: cover;
+    height: 636px;
+}
+
+.header .slider .intro
+{
+    text-align: center;
+    padding-top: 200px;
+    
+    
+}
+
+.header .slider h2 
+{
+    color: #fff;
+    font-size: 50px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-transform: uppercase;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.header .slider button 
+{
+    background: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin-top: 30px;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header .slider button a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* End Header */

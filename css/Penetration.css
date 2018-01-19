@@ -1,0 +1,130 @@
+/* Start Rule */
+
+.container 
+{
+    width: 1170px;
+    margin: auto;
+}
+
+/* End Rule */
+
+/* Start Header */
+.header .navbar 
+{
+    background-color: #262F31;
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.header .navbar h2 
+{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span
+{
+    color: #25b3f9;
+}
+
+.header .navbar ul 
+{
+    padding-left: 0;
+    float: right;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.header .navbar ul li 
+{
+    float: left;
+    display: block;
+    padding: 5px 30px;
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+.header .navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    
+}
+
+.header .navbar ul li a:hover
+{
+    border-bottom: 3px solid #729BB0;
+}
+
+/* End Header */
+
+
+/* Start Penetration */
+
+.pen h1 
+{
+    margin: 0;
+    background-color: #F2F2F2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pen p 
+{
+    padding: 10px 20px 5px 20px;
+    line-height: 1.8;
+    color: #666;
+}
+.pen p span 
+{
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.pen ul 
+{
+    line-height: 1.4;
+    color: #777;
+}
+/* End Penetration */
+
+/* Start Footer */
+ 
+.foot 
+{
+    padding-top: 90px;
+    padding-bottom: 49px;
+    overflow: hidden;
+    background-color: #272F31;
+    text-align: center;
+    color: #888;
+}
+
+
+.foot span:hover
+{
+    color: #fff;
+}
+
+.foot ul 
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0 ;
+}
+
+.foot ul li 
+{
+    display: inline-block;
+}
+
+.foot ul li img 
+{
+    width: 24px;
+}
+/* End Footer */
